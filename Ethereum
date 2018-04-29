@@ -30,3 +30,13 @@ Contract Source --> Solidity Compiler --> ABI & [Contract ByteCode --> Rinkeby]
 Truffle -->  [Contract Creation , Local Testing, Deployment] --> Rinkeby
 
 
+ABI - Application Binary Interface. --> Communication between JS and Solidity. Contains all the constants, vars, functions of contract code.
+
+
+Web3 - A constructor Function - Each instance can connect to different Ethereum Network.
+
+Web3 --> An Instance <-- A Provider <-- Ganache
+Provider: A Communication layer between Web3 and any specific Ethereum Network
+
+
+Every function that we call in web3 are async
