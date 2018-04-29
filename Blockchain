@@ -1,0 +1,212 @@
+What is Blockchain?
+Simple - No More than a distributed database.
+A large worldwide computer where everyone can access data and execute transactional code.
+All transactions are stored in blocks of data.
+These blocks are made in a way that makes them very hard to manipulate or fake once they are stored to the blockchain.
+Due to the nature of blockchain - it gives a trustworthy way to store data in scenarios where there are no trust.
+THis could be a transaction between a anounymous stranger on the internet.
+Or store medical information a way that can only be accessed by those you allow.
+Blockchain is NOT  responsible to store large amounts of data for each transaction.
+Usually -You will not store images in blockchain. But you might store information to check whether the image is tampered or not.
+Most data stored on the blockchain is focused on transaction and states of objects rather than the actual objects themselves
+
+Bitcoin -Crypto Currency
+
+A Crypto currency is something that only exists as a Digital Currency.
+It does not hold any underlying value
+
+A Bitcoin is only unique string of letters and numbers attached to a ulnar.
+There is no central system. There is no bank. We cant revert transactions once they are done. They will be done completly anounymous.
+All transactions are transperant.
+The underlying Technology which enables this is block chain.
+Bitcoins could not have existed without blockchains.
+And Bitcoins are it major broad use.
+
+The characterstics of BlockChain
+Global Singleton
+The Blockchain Objects are global Singleton Instances.
+
+The blockchain is natively object-oriented where code and data reside together.
+
+It's Unstoppable: There is no one is control over a blockchain.
+
+It cannot be stopped and it cannot have a central failure.
+
+No Govermaent or corporation can censor it!! and it's very resistant to being hacked.
+There is no power plug to pull nor a single point of attack.
+
+Blockchain is Accessible: Everywhere there's Internet, you can access the blockchain by using a broad number of clients and technologies.
+
+Most of all its Verifiable : Everyone that has access to the blockchain can verify every single transaction from the beginning of time.
+This enables everyone to audit everything.
+
+
+
+How it works?
+
+It begins when someone doing a single or group of transactions.
+
+Transaction : A transaction is typically sending data in the form of contract.
+Depending on the blockchain implementation you are using. It can also invlove crypto currency being sent from one account to another.
+The transactions are sent to a large peer to peer network of computers.
+These are generally distributed all over the world.
+Each computer is called Node. They all have the copy of the existing data.
+Then the contracts are executed and validated based on pre-shared contracts and scripts.
+This ensures the all nodes execute using the same set of rules.
+
+When the transaction has executed, the result is added to the Blockchain.
+ Since this is done at each node, you would have to compromise every node in the chain in order to compromise the transaction.
+
+When doing a transaction in a blockchin there are some aspects that is absolutly necessary for it to have the charactersitics.
+
+1. All transactions are Atomic. This means that the full operations run or nothing at all.
+
+For example, If you make a mony trasaction you would need to credit money from one account and debit from another.
+If any of them fails, then the whole transaction fails.
+
+Writing bad code should be checked. and execute transaction in the right order.
+
+2. Transactions run independant of each other. No two transaction can intersect or interfere eachother.
+
+3.It has to be Inspectable. Every single method call that comes to blockchain comes with the acual address to the caller.
+This secure and auditing soliutions on a very very wide scale.
+This is unique to blockchain.
+
+4.Blockchain Objects are immortal: That means that all data from an object are permanent.
+The code for an object can never be changed and you can never delete an object externally.
+
+The only way to remove an object from the blockchain is that if it is programmed to remove itself.
+When writing code for blockchain - really really really need to make sure that this what you want to do.
+Because you can never alter or remove it.
+
+Hashing : 
+
+The core of any blockchain resides in the concept of hashing.
+Hashing is basically to execute a mathematical algorithm that creates a result with a given length regardless of the input given.
+The result of the hashing function is called the hash. (Digital Fingerprints.)
+
+Hashing is a One-way function, meaning the function will always return the same result with the same input(like a pure function) but you can never regenrate the input based on the result of the hashing algorithm,
+
+Very common hashing algorithm that is used with Blockchain is SHA-256.
+
+Merkle Tree - Hash of Hashes.
+quick and rather easy to confirm large amounts of data and transactions.
+
+
+THE BLOCK -  Actual block in blockchain
+A block consists of data and its resulting hash.
+
+if we change any data in the block then the hash will change then the block will be invalid.
+It also includes the nounce which is input to the hashing algorithm that would result in the first part of the hash to be something predefined like a set of zeros.
+it's not possible to predict the nounce so it can be considered as a prrof of work by the machine creating the hash.
+
+Mining the block : Lets say that we require our hash to have a leading number of zeros. whenever we change anuything we will need to rerun the hashing untill we figure out which nounce to set.
+
+Chain of Blocks : The block also contains a block number, meaning which order it has in the blockchain.
+A block also contains a timestamp. but most importantly the block in a blockchain will include the hash of previous block.(like linked list)
+
+If you change one of the block you will break all the blocks following in the chain.
+
+A distributed chains of blocks : 
+In blockchain we distribute a chain of blocks to a vast number of computers. this means the chain exist in multiple locations. 
+The altered chain will be rejected by the distributed chain and removed
+
+Securing the Data:
+Data stored in a block chain will generally include everyone that has access to the chain.
+
+Obfuscation : to make the data relevant only to those who know its meaning.
+Eg with bitcoins :  With the address of any account, it's a long string of letters and numbers.
+No one in the chain knows who the address is physically connected to and they dont need to know, but everyone know every transactions going b/w the diff account addresses.
+ 
+
+ Another way of Obfuscation is have the data contain Id and status codes. Unless u know what the diff IDs are connected to, the data is really no use to you.
+
+Encryptions: When you encrypt a message or a transaction payload you apply a two-way algorithm to the message in way that can only be decoded if u know the password or encryption matrix.
+this means the data can be available to everyone but only those who knows the password to decrypt the message can male sense of it.
+
+Advanced Encryption Standard : AES. It uses long keys to produces heavy duty encryption. The harder it is to crack.
+
+We take our original message and pass it through an AES 128 encryption with a generated key. 
+
+Blockchain either can be Public or private :
+
+In a public block chain, everyone with an internet connection can connect to the chain. the way the public chains are funded is that you generally need to pay for storage ,transaction, and execution costs to the entities that have joined the chain.
+
+
+Uses of Blockchain : 
+Digital Currency like bitcoin.
+Internet of things.
+etc..
+ 
+
+One of the Largest Blockchain - Ethereum
+Ethereum is not just platform but also programming language running on blockchain
+So we can build and publish Distrubuted Applications(DAPPS).
+Ether - Ethereum Crypto currency similar to Bitcoins.
+Fast transaction than Bitcoins.
+Funding Transactions depending on the computational complexity.
+The proof of work - In Ethereum it's Proof of stack - direct economic stacks
+
+
+Ehter Denomination
+
+1ETH
+ 1 quintallion WEI
+ 1000 Finey
+ 1.000.000 Szabo
+ Kether, Mether, Gether,Tether
+ 1KETH - 1000ETH
+
+Etherum Classic - ETC
+DAO Hack - Decentralized Autonomouse Organization funded by blockchain
+crypto-anarchist
+
+DAPPs - Distributed Applications
+
+Smart Contracts in Ethereum - Deploying code into Ethereum built in a language called solidity.
+
+Smart Contracts are pieces of code that live on the blockchain and execute commands exactly how they were told by a shared logic.
+
+The contracts carry the data logic for our DAPPs. 
+    They can :
+        Read other contracts , Make Decision , Send Ether, Execute other Contracts.
+
+Contracts will exist and run as long as the network.
+
+They will only stop if they are out of transactional funding or if they were programmed to self-destruct.
+
+
+Payment model - GAS
+Gas is the internal pricing for running transactions or contracts in Ethereum.
+
+Seperated from the current value of Ether.
+
+Gas price is based on computation, memory, bandwidth and storage needs.
+These influence will make up the gas needed to run the contract or transaction.
+
+Gas used upto the point where execution stopped. it will rollback to previous transaction snapshot.
+
+But the Ether will be reduced with price for the Gas already spent.
+
+Transaction-
+The term Transaction is used in Ethereum refers to data package that stores a message to be sent from an externally owned account
+
+A transaction contains - 
+    Recipt of the message.
+    Signature identifying the sender
+    A value field which is the amount of WEI to transfer from the sender to the recipient
+    A Gas price - The fee the sender is willing to pay for gas. -  the higher price you pay the higer miners will rank your work.
+    Startgas value - Representation of max number of computational steps the transaction executed is allowed to take.
+        Stops from executing inifiniter loop.
+        gives miners a estimate of how much they will get by doing the transaction
+    Optional data field - contains meesage sent to the contract.
+
+
+Proof of Work vs Proof of stake
+
+PoW - critizied for the environmental damage and electricity costs associated with the mining process.
+PoS - Attempts to resolve these issues by removing the concept of mining entirely and replacing it with a different mechanism.
+One could take the same amount of money and convert it into crypto currency straight away.
+
+
+

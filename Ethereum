@@ -1,0 +1,32 @@
+Gas :
+How much work we are executing using the code.  
+
+In order to get someone else to run our contract we have to pay the money
+This money is Gas.
+When sending a Transaction some amount of gas is attached.
+
+Gas Price: Amount of wei/money that we are offering for per unit of gas.
+
+If I were to offer Gas Price of 10
+Means I am willin to pay.. If gas used is 3. then 10 * 3 = 30wei/money
+
+startGas/gasLimit: total number of unit of gas that we are willing spent with this transaction.
+
+Accounts : Address key, public key, private key
+
+12 word mnemonic: A series of 12 random words.
+
+Eg: pave cattle recycle grit
+very erupt above team cousin
+scale mammal sock
+
+when given in mnumonic algorithm it will spit out a series of accounts which have thier own public, private and addresses
+
+12 words mnemonic for our account meta mask:
+word win world fall valid field awkward tool bridge knee blush afford
+
+Contract Source --> Solidity Compiler --> ABI & [Contract ByteCode --> Rinkeby]
+
+Truffle -->  [Contract Creation , Local Testing, Deployment] --> Rinkeby
+
+
