@@ -210,3 +210,6 @@ One could take the same amount of money and convert it into crypto currency stra
 
 
 
+BIG SOLIDITY GOTCHA!!
+part 1 - Arrays of Arrays can be created in Solidity as well as JS. But AoA cannot be complied from solidity -> JS (ABI,Web3)
+part 2 - Interestingly, Solidity stores Strings as Arrays. So from part 1 we cannot send arrays of strings from Solidity to JS.
