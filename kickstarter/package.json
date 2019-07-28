@@ -20,5 +20,8 @@
     "solc": "^0.5.7",
     "truffle-hdwallet-provider": "^1.0.6",
     "web3": "^1.0.0-beta.35"
+  },
+  "browser": {
+    "child_process": false, "net": false
   }
 }
